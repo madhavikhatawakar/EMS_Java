@@ -310,7 +310,7 @@
 		<artifactId>tomcat7-maven-plugin</artifactId>
 		<version>2.2</version>
 		<configuration>
-			<url>http://localhost:5024/manager/text</url>
+			<url>http://172.27.59.83:5024/manager/text</url>
 			<server>TomcatServer</server>
 			<path>/mkyongWebApp</path>
 		</configuration>
