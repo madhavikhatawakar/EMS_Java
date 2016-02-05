@@ -1,6 +1,6 @@
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\EmployeeDAOImplTest.java
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.java
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\com\sample\mvc\controllerTest\EmployeeControllerTest.java
-C:\Workspace\EmployeeManagementSystem\target\clover\src-test\com\sample\mvc\init\BaseTestConfig.java
+D:\EMS\target\clover\src-test\com\sample\mvc\init\BaseTestConfig.java
+D:\EMS\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java
+D:\EMS\target\clover\src-test\EmployeeDAOImplTest.java
+D:\EMS\target\clover\src-test\com\sample\mvc\controllerTest\EmployeeControllerTest.java
+D:\EMS\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java
+D:\EMS\target\clover\src-test\com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.java

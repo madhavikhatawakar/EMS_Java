@@ -1,6 +1,6 @@
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\init\BaseTestConfig.java
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.java
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\controllerTest\EmployeeControllerTest.java
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\daoTest\EmployeeDAOImplTest.java
-C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java
+D:\EMS\src\test\java\com\sample\mvc\daoTest\EmployeeDAOImplTest.java
+D:\EMS\src\test\java\com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.java
+D:\EMS\src\test\java\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java
+D:\EMS\src\test\java\com\sample\mvc\controllerTest\EmployeeControllerTest.java
+D:\EMS\src\test\java\com\sample\mvc\init\BaseTestConfig.java
+D:\EMS\src\test\java\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java

@@ -294,18 +294,27 @@
 				</executions>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
 				<configuration>
-					<server>mytomcat</server>
-					<url>http://172.27.59.74:8080/manager/text</url>
+					<url>http://172.27.59.83:5024/manager/text</url>
 					<username>tomcat</username>
-					<password>s3cret</password>
+					<password>tomcat</password>
 					<path>/EMS_Hibernate1</path>
 				</configuration>
-
+				-->
+				<plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat7-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://localhost:5024/manager/text</url>
+			<server>TomcatServer</server>
+			<path>/mkyongWebApp</path>
+		</configuration>
+	<!-- </plugin> -->
 				<executions>
 					<execution>
 						<id>start-tomcat</id>
@@ -403,16 +412,16 @@
 					</executions>
 				</plugin>
 
-				<plugin>
+				<!--<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.10</version>
-					<!-- <configuration> <excludes> <exclude>**/EmployeeControllerTest.java</exclude> 
+					<configuration> <excludes> <exclude>**/EmployeeControllerTest.java</exclude> 
 						<exclude>**/EmployeeAddControllerTest.java</exclude> </excludes> </configuration> -->
-					<configuration>
+					<!-- <configuration>  -->
 						<!-- Skip the normal tests, we'll run them in the integration-test 
 							phase <skip>true</skip> -->
-							<excludes>
+							<!--<excludes>
 							<exclude>**/EmployeeDeleteSeleniumTest.java</exclude>
 							<exclude>**/EmployeeAddSeleniumTest.java</exclude>
 							<exclude>**/EmployeeEditSeleniumTest.java</exclude>
@@ -434,7 +443,7 @@
 							</configuration> 
 						</execution>
 					</executions>  
-				</plugin>
+				</plugin> -->
 			</plugins>
 		</pluginManagement>
 	</build>
